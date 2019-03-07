@@ -13,7 +13,7 @@ env:
   global:
     - GITHUB_ACCOUNT=aws-robotics
     - PACKAGE_NAME=tts
-    - LANG=python
+    - PACKAGE_LANG=python
   matrix:
     - ROS_DISTRO=kinetic ROS_VERSION=1
     - ROS_DISTRO=lunar   ROS_VERSION=1
